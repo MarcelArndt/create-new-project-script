@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Distribution / Build
+dist/
+build/
+*.egg-info/
+*.egg
+wheels/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+test/
+
+# Projects
+tools/
+etc/
+infos/
+psd/
+
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+
+# jetbrains setting folder
+.idea/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+#Docker
+/.dockerignore
+
+#claude
+/.claudeignore
