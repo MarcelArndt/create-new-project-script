@@ -16,6 +16,8 @@ Ein Batch-Script zur automatisierten Erstellung neuer Python-Projekte mit vorkon
 
 Das Script muss zur Windows **PATH-Umgebungsvariable** hinzugefügt werden.
 
+Lege ein Ordner auf deinen PC an wo du dir alle Scripte abspeichen tust. Von dort aus werden später diese Scripte von überall auf deinen PC verfügbar sein.
+
 #### Option A: PowerShell (als Administrator)
 
 ```bash
@@ -37,6 +39,7 @@ Nach Ausführung: Windows neustarten oder neue CMD öffnen.
 ### 2. Template-Verzeichnis konfigurieren
 
 Das Script nutzt eine `TEMPLATE_DIR` Umgebungsvariable für Template-Dateien.
+
 Kopiere den Inhalt aus _template in einen für dich passenden Ort und merk dir den PATH zu diesen.
 Die Template Datein werden später als Vorlage kopiert und im nächsten Projekt eingefügt.
 
