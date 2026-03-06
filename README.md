@@ -69,7 +69,7 @@ new-project
 Das Script fragt dann nach einem Projektnamen und erstellt automatisch:
 - ✅ Neue Projektordner-Struktur
 - ✅ Ignoredateien (`.gitignore`, `.dockerignore`, `.claudeignore`)
-- ✅ Konfigurationsdateien (`.env.example`)
+- ✅ Konfigurationsdateien (`.env.template`)
 - ✅ README mit Projektnamen
 - ✅ Git-Repository 
 
@@ -80,8 +80,9 @@ Das Script fragt dann nach einem Projektnamen und erstellt automatisch:
 
 ```
 projektname/
-├── main.py
-├── .env.example
+├── .env.template
 ├── .gitignore
+├── .claudeignore
+├── .dockerignore
 └── README.md
 ```
